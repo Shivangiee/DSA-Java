@@ -14,15 +14,6 @@ class Solution {
                 count--;
             }
         }
-        int count1 = 0;
-        for(int i=0;i<n;i++){
-            if(nums[i]== element){
-                count1++;
-            }
-        }
-        if(count>n/2){
-            return element;
-        }
-        return -1;
+        return element;
     }
 }
